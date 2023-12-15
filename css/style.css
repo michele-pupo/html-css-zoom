@@ -49,12 +49,13 @@ main{
 .users-container{
     display: flex;
     flex-wrap: wrap;
+    gap: 9px 3px;
     justify-content: space-between;
 }
 
 .users-container .user{
-    width: calc(100% / 7);
-    padding: 3px;
+    position: relative;
+    width: calc(100% / 7 - 6px / 7 * 6);
 }
 
 /* rimozione padding sinistro */
@@ -76,14 +77,21 @@ main{
     width: 100%;
 }
 
-/* stilizzazione nome utente ed icona */
+/* stilizzazione nome utente ed icona e posizionamento */
 #speaker{
     padding: 10px 15px;
-    background-color: #4A4A4A;
+    background-color: rgba(84, 99, 113, 0.3);
+    border: transparent;
     font-size: 25px;
     color: white;
 }
-/* stilizzazione nome utente ed icona */
+
+.users-container .user .name{
+    position: absolute;
+    bottom: 5px;
+    left: -10px;
+}
+/* stilizzazione nome utente ed icona e posizionamento*/
 
 
 /* fine main */
