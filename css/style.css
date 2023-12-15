@@ -40,4 +40,26 @@ button{
 /* fine header */
 
 /* inizio maim */
+main{
+    padding-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.users-container{
+    border: dashed 2px red;
+    /* test */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.users-container .user{
+    width: 100px;
+    height: 300px;
+    background-color: lightskyblue;
+    border: solid 2px black;
+    /* test */
+    width: calc(100% / 7);
+}
+
 /* fine main */
