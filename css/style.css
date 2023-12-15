@@ -14,6 +14,7 @@ body {
 }
 /* fine body */
 
+/* inizio header */
 header {
     height: 50px;
     padding: 10px 10px 0 0;
@@ -36,3 +37,7 @@ button{
     font-size: 25px;
     color: white;
 }
+/* fine header */
+
+/* inizio maim */
+/* fine main */
