@@ -58,16 +58,6 @@ main{
     width: calc(100% / 7 - 6px / 7 * 6);
 }
 
-/* rimozione padding sinistro */
-.users-container .user:nth-of-type(7n + 1){
-    padding-left: 0px;
-}
-
-/* rimozione padding destro */
-.users-container .user:nth-of-type(7n){
-    padding-right: 0px;
-}
-
 .users-container .user .user-immage{
     width: 100%;
     height: 100%;
@@ -93,5 +83,26 @@ main{
 }
 /* stilizzazione nome utente ed icona e posizionamento*/
 
-
 /* fine main */
+
+/* inizio stilizzazione barra degli strumenti */
+.toolbar {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 130px;
+    background-color: #222222;
+}
+
+.toolbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.speaker-video ul, .buttons-zoom ul{
+    display: flex;
+    list-style-type: none;
+}
+/* inizio stilizzazione barra degli strumenti */
