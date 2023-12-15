@@ -57,10 +57,12 @@ main{
     padding: 3px;
 }
 
+/* rimozione padding sinistro */
 .users-container .user:nth-of-type(7n + 1){
     padding-left: 0px;
 }
 
+/* rimozione padding destro */
 .users-container .user:nth-of-type(7n){
     padding-right: 0px;
 }
@@ -73,5 +75,15 @@ main{
 .users-container .user .user-immage img{
     width: 100%;
 }
+
+/* stilizzazione nome utente ed icona */
+#speaker{
+    padding: 10px 15px;
+    background-color: #4A4A4A;
+    font-size: 25px;
+    color: white;
+}
+/* stilizzazione nome utente ed icona */
+
 
 /* fine main */
