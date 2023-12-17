@@ -41,21 +41,27 @@ button{
 
 /* inizio maim */
 main{
-    padding-top: 50px;
-    margin-left: 200px;
-    margin-right: 200px;
+    padding-top: 100px;
+    height: calc(100vh - 230px);
+    overflow-y: auto;
+}
+
+.container {
+    padding-bottom: 100px;
+    width: 90%;
+    margin: 0 auto;
 }
 
 .users-container{
     display: flex;
     flex-wrap: wrap;
-    gap: 9px 3px;
+    gap: 20px 5px;
     justify-content: space-between;
 }
 
 .users-container .user{
     position: relative;
-    width: calc(100% / 7 - 6px / 7 * 6);
+    width: calc(100% / 7 - 10px / 7 * 6);
 }
 
 .users-container .user .user-immage{
@@ -66,6 +72,7 @@ main{
 .users-container .user .user-immage img{
     width: 100%;
 }
+
 
 /* stilizzazione nome utente ed icona e posizionamento */
 #speaker{
@@ -93,16 +100,28 @@ main{
     left: 0;
     height: 130px;
     background-color: #222222;
-}
-
-.toolbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.speaker-video ul, .buttons-zoom ul{
+.speaker-video ul{
     display: flex;
     list-style-type: none;
+}
+
+.toolbar-video{
+    font-size: 40px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+h2{
+    font-size: 20px;
+}
+
+.chevron{
+    margin-top: 25px;
+    font-size: 15px;
 }
 /* inizio stilizzazione barra degli strumenti */
