@@ -98,7 +98,7 @@ main{
     bottom: 0;
     right: 0;
     left: 0;
-    height: 130px;
+    height: 110px;
     background-color: #222222;
     display: flex;
     justify-content: space-between;
@@ -118,11 +118,11 @@ main{
 
 h2{
     font-size: 20px;
-    margin-top: 10px;
+    margin-top: 8px;
 }
 
 .chevron{
-    margin-top: 25px;
+    margin-top: 30px;
     font-size: 15px;
 }
 
@@ -133,7 +133,7 @@ h2{
 
 button{
     background-color: #4A4A4A;
-    padding: 50px 35px;
+    padding: 38px 35px;
     color: #D91700;
     font-size: 25px;
 }
