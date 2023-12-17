@@ -17,7 +17,7 @@ body {
 /* inizio header */
 header {
     height: 50px;
-    padding: 10px 10px 0 0;
+    padding: 10px 10px 0px 0;
     text-align: end;
     position: fixed;
     top: 0;
@@ -41,7 +41,7 @@ button{
 
 /* inizio maim */
 main{
-    padding-top: 100px;
+    margin-top: 80px;
     height: calc(100vh - 230px);
     overflow-y: auto;
 }
@@ -74,7 +74,7 @@ main{
 }
 
 
-/* stilizzazione nome utente ed icona e posizionamento */
+/* stilizzazione e posizionamento nome utente ed icona  */
 #speaker{
     padding: 10px 15px;
     background-color: rgba(84, 99, 113, 0.3);
@@ -88,9 +88,9 @@ main{
     bottom: 5px;
     left: -10px;
 }
-/* stilizzazione nome utente ed icona e posizionamento*/
 
 /* fine main */
+
 
 /* inizio stilizzazione barra degli strumenti */
 .toolbar {
@@ -103,6 +103,7 @@ main{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 10;
 }
 
 .speaker-video ul, .buttons-zoom ul{
@@ -112,7 +113,7 @@ main{
 
 .toolbar-video{
     font-size: 40px;
-    margin-left: 20px;
+    margin-left: 30px;
     text-align: center;
 }
 
@@ -132,9 +133,9 @@ h2{
 
 
 button{
+    font-size: 25px;
     background-color: #4A4A4A;
     padding: 38px 35px;
     color: #D91700;
-    font-size: 25px;
-}
-/* inizio stilizzazione barra degli strumenti */
+    }
+/* fine stilizzazione barra degli strumenti */
