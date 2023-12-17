@@ -105,7 +105,7 @@ main{
     align-items: center;
 }
 
-.speaker-video ul{
+.speaker-video ul, .buttons-zoom ul{
     display: flex;
     list-style-type: none;
 }
@@ -118,10 +118,23 @@ main{
 
 h2{
     font-size: 20px;
+    margin-top: 10px;
 }
 
 .chevron{
     margin-top: 25px;
     font-size: 15px;
+}
+
+.icon-green{
+    color: #4BC800;
+}
+
+
+button{
+    background-color: #4A4A4A;
+    padding: 50px 35px;
+    color: #D91700;
+    font-size: 25px;
 }
 /* inizio stilizzazione barra degli strumenti */
